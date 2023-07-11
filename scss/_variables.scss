@@ -1,0 +1,54 @@
+:root{
+
+// fonts
+--primary-font: 'Barlow Semi Condensed';
+--primary-font-bold: bold;
+--primary-font-regular: normal;
+--primary-font-medium: 500;
+--primary-font-semiBold: 600;
+--secondary-font:'Besley';
+--secondary-font-medium: 500;
+--secondary-font-regular: normal;
+
+// colors
+--site-dark-color: #373a3b;
+--site-dark-color-type-two: #1c1c1c;
+--site-dark-color-lite: #4e4e4e;
+--site-dark-color-darker: #4d4f50;
+--site-primary-color: #9bb6d8;
+--site-secondary-color: #c5674f;
+--site-secondary-lite: #cc6643;
+--site-secondary-extreme-lite: #f8ece5;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// breackpoints
+$sm: 576px;
+$md: 768px;
+$lg: 820px;
+$lg-landscape: 1024px;
+$xl: 1280px;
+
+// gutter
+$xl-gutter: 160px;
+$extra-lg-gutter: 76px;
+$lg-gutter: 48px;
+$default-gutter: 40px;
+$sm-gutter: 30px;
+$min-gutter: 16px;
+

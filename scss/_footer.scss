@@ -1,0 +1,72 @@
+.sichalla_kollegen{
+
+	footer.footer{
+        padding: 110px 0;
+        background-color: var(--site-dark-color);
+        color: white;
+
+        a{
+            color: white;
+            &:hover{
+                color: var(--site-secondary-lite);
+            }
+        }
+
+        .footer-block{
+            .block-title{
+                margin-bottom: 5px;
+            }
+        }
+
+        .footer-iconic-info{
+            & > div{
+                margin-bottom: 7px;
+
+                &:last-child{
+                    margin-bottom: 0px;
+                }
+            }
+            i, span{
+                display: inline-block;
+                vertical-align: middle;
+            }
+
+            i{
+                margin-right: 12px;
+                width: 22px;
+                text-align: center;
+
+                img{
+                    max-width: 22px;
+                    display: inline-block;
+                }
+            }
+
+            span{
+                font-size: 21px;
+                font-family: var(--secondary-font);
+                font-weight: var(--secondary-font-regular);
+            }
+        }
+
+        p{
+            font-family: var(--primary-font);
+            font-weight: var(--primary-font-regular);
+        }
+
+        h1, h2, h3, h4, h5, h6{
+            font-family: var(--primary-font);
+            color: var(--site-secondary-lite);
+
+            strong{
+                font-weight: var(--primary-font-bold);
+            }
+        }
+
+        p{
+            font-size: 16px;
+            line-height: 24px;
+        }
+    }
+	
+}
