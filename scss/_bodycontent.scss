@@ -400,13 +400,59 @@ html{
     }
 
     // iconic-hovered-widget
+    @media screen and (min-width: $lg){
+        .iconic-hovered-widget-within-center-container{
+            background-color: var(--site-dark-color);
+
+            .iconic-hovered-widget{
+                .widget-block{
+                    .main-heading-wrap{
+                        span{
+                            font-size: 18px;
+                        }
+
+                        i{
+                            padding-right: 10px;
+                            img{
+                                max-width: 40px;
+                            }
+                        }
+                    }
+                    .main-context-wrap{
+                        padding-left: 30px;
+                        padding-right: 30px;
+                    }
+                }
+            }
+        }
+    }
+
+@media screen and (min-width: $xl){
+    .iconic-hovered-widget-within-center-container{
+        .iconic-hovered-widget{
+            .widget-block{
+                .main-heading-wrap{
+                    span{
+                        font-size: 24px;
+                    }
+
+                    i{
+                        img{
+                            max-width: 66px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
     .iconic-hovered-widget{
         display: flex;
-        flex-wrap: wrap;
         color: white;
 
         .widget-block{
-            flex-grow: 1;
             position: relative;
 
             &.hovered{

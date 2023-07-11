@@ -7908,12 +7908,27 @@ html {
     top: 9px; }
   .sichalla_kollegen .start-page-banner h4, .sichalla_kollegen .start-page-banner .h4 {
     color: var(--site-primary-color); }
+  @media screen and (min-width: 820px) {
+    .sichalla_kollegen .iconic-hovered-widget-within-center-container {
+      background-color: var(--site-dark-color); }
+      .sichalla_kollegen .iconic-hovered-widget-within-center-container .iconic-hovered-widget .widget-block .main-heading-wrap span {
+        font-size: 18px; }
+      .sichalla_kollegen .iconic-hovered-widget-within-center-container .iconic-hovered-widget .widget-block .main-heading-wrap i {
+        padding-right: 10px; }
+        .sichalla_kollegen .iconic-hovered-widget-within-center-container .iconic-hovered-widget .widget-block .main-heading-wrap i img {
+          max-width: 40px; }
+      .sichalla_kollegen .iconic-hovered-widget-within-center-container .iconic-hovered-widget .widget-block .main-context-wrap {
+        padding-left: 30px;
+        padding-right: 30px; } }
+  @media screen and (min-width: 1280px) {
+    .sichalla_kollegen .iconic-hovered-widget-within-center-container .iconic-hovered-widget .widget-block .main-heading-wrap span {
+      font-size: 24px; }
+    .sichalla_kollegen .iconic-hovered-widget-within-center-container .iconic-hovered-widget .widget-block .main-heading-wrap i img {
+      max-width: 66px; } }
   .sichalla_kollegen .iconic-hovered-widget {
     display: flex;
-    flex-wrap: wrap;
     color: white; }
     .sichalla_kollegen .iconic-hovered-widget .widget-block {
-      flex-grow: 1;
       position: relative;
       cursor: pointer;
       background-color: var(--site-dark-color); }
@@ -8109,7 +8124,7 @@ html {
   .sichalla_kollegen .iconic-hovered-widget .widget-block .main-context-wrap {
     padding: 0 25px 25px 25px; }
   .sichalla_kollegen .iconic-hovered-widget .widget-block .main-heading-wrap span {
-    font-size: 20px; }
+    font-size: 18px; }
   .sichalla_kollegen footer.footer .footer-iconic-info span {
     font-size: 18px; }
   .sichalla_kollegen footer.footer p {
@@ -8159,11 +8174,15 @@ html {
       font-size: 14px;
       line-height: 17px;
       margin-bottom: 5px; }
+    .sichalla_kollegen .iconic-hovered-widget-within-center-container {
+      background-color: transparent; }
     .sichalla_kollegen .iconic-hovered-widget {
       padding-left: 20px;
-      padding-right: 20px; }
+      padding-right: 20px;
+      flex-wrap: wrap; }
       .sichalla_kollegen .iconic-hovered-widget .widget-block {
-        margin-bottom: 10px; }
+        margin-bottom: 10px;
+        flex-grow: 1; }
         .sichalla_kollegen .iconic-hovered-widget .widget-block:last-child {
           margin-bottom: 0px; }
         .sichalla_kollegen .iconic-hovered-widget .widget-block .main-context-wrap {

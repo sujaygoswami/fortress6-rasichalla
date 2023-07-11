@@ -33,7 +33,7 @@
 
                 .main-heading-wrap{
                     span{
-                        font-size: 20px;
+                        font-size: 18px;
                     }
                 }
             }
@@ -155,12 +155,17 @@
         }
 
         // iconic-hovered-widget
+        .iconic-hovered-widget-within-center-container{
+            background-color: transparent;
+        }
         .iconic-hovered-widget{
             padding-left: 20px;
             padding-right: 20px;
+            flex-wrap: wrap;
 
             .widget-block{
                 margin-bottom: 10px;
+                flex-grow: 1;
                 &:last-child{
                     margin-bottom: 0px;
                 }
