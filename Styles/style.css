@@ -7247,6 +7247,7 @@ textarea.form-control-lg {
   --secondary-font-regular: normal;
   --site-dark-color: #373a3b;
   --site-dark-color-type-two: #1c1c1c;
+  --site-dark-color-type-three: #727272;
   --site-dark-color-lite: #4e4e4e;
   --site-dark-color-darker: #4d4f50;
   --site-primary-color: #9bb6d8;
@@ -8084,6 +8085,87 @@ html {
       pointer-events: auto; }
       .sichalla_kollegen .go-up-down-module .go-top.fadeOutDown {
         pointer-events: none; }
+  .sichalla_kollegen .contact-content {
+    color: white; }
+    .sichalla_kollegen .contact-content.basic-entry p {
+      font-size: 14px;
+      line-height: 21px; }
+    .sichalla_kollegen .contact-content .powermail_fieldwrap_type_html {
+      color: #c3c4c4;
+      margin-top: 55px; }
+    .sichalla_kollegen .contact-content .powermail_legend {
+      display: none; }
+    .sichalla_kollegen .contact-content .powermail_input {
+      border: none;
+      border-bottom: 1px solid var(--site-dark-color-type-three);
+      padding: 0px;
+      background: transparent;
+      color: white;
+      outline: none !important;
+      box-shadow: none !important;
+      font-size: 18px; }
+    .sichalla_kollegen .contact-content .powermail_textarea {
+      border: 1px solid var(--site-dark-color-type-three);
+      padding: 10px;
+      background: transparent;
+      color: white;
+      outline: none !important;
+      box-shadow: none !important;
+      height: 135px;
+      resize: vertical;
+      font-size: 18px; }
+    .sichalla_kollegen .contact-content .powermail_field_error {
+      border-color: #9b1b1b; }
+    .sichalla_kollegen .contact-content .powermail_field {
+      margin-bottom: 10px; }
+    .sichalla_kollegen .contact-content .powermail-errors-list {
+      display: none; }
+    .sichalla_kollegen .contact-content .powermail_fieldwrap {
+      margin-bottom: 19px; }
+    .sichalla_kollegen .contact-content .powermail_label.form-label {
+      margin-bottom: 0px;
+      font-size: 18px; }
+    .sichalla_kollegen .contact-content .powermail_submit {
+      display: block;
+      width: 100%; }
+    .sichalla_kollegen .contact-content .powermail_fieldwrap_type_radio {
+      margin-top: 28px; }
+      .sichalla_kollegen .contact-content .powermail_fieldwrap_type_radio .powermail_label {
+        display: none; }
+      .sichalla_kollegen .contact-content .powermail_fieldwrap_type_radio > .powermail_field .radio {
+        display: inline-block;
+        vertical-align: top;
+        margin-right: 30px;
+        margin-bottom: 30px; }
+        .sichalla_kollegen .contact-content .powermail_fieldwrap_type_radio > .powermail_field .radio label {
+          font-size: 18px; }
+      .sichalla_kollegen .contact-content .powermail_fieldwrap_type_radio .custom-input {
+        margin-bottom: 9px; }
+      .sichalla_kollegen .contact-content .powermail_fieldwrap_type_radio .custom-input-visual {
+        width: 27px;
+        height: 27px;
+        border-radius: 100%;
+        border: 1px solid var(--site-dark-color-type-three);
+        position: relative;
+        overflow: hidden;
+        padding: 6px; }
+        .sichalla_kollegen .contact-content .powermail_fieldwrap_type_radio .custom-input-visual input {
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          margin: 0px;
+          padding: 0px;
+          opacity: 0;
+          border: none;
+          left: 0px;
+          top: 0px; }
+          .sichalla_kollegen .contact-content .powermail_fieldwrap_type_radio .custom-input-visual input:checked + .clone-check {
+            background-color: var(--site-secondary-lite); }
+        .sichalla_kollegen .contact-content .powermail_fieldwrap_type_radio .custom-input-visual .clone-check {
+          pointer-events: none;
+          width: 100%;
+          height: 100%;
+          border-radius: 100%; }
 
 .sichalla_kollegen footer.footer {
   padding: 110px 0;

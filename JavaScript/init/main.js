@@ -285,6 +285,28 @@ jQuery('.the-mobile-menu .menu-close-trigger').click(function(){
 });
 
 
+// contact content powermail
+jQuery('.contact-content').each(function(){
+  var POWERMAILFIELDSETLAYOUT = jQuery(this).find('.powermail_fieldset.layout1');
+  jQuery(this).find(POWERMAILFIELDSETLAYOUT).wrapAll('<div class="row extra-lg-grid"></div>');
+  jQuery(this).find(POWERMAILFIELDSETLAYOUT).addClass('col-6 my-col');
+
+  jQuery(this).find('.powermail_fieldwrap').each(function(){
+    jQuery(this).find('.powermail_field').detach().prependTo(this);
+    jQuery(this).removeClass('mb-3');
+  });
+
+  jQuery(this).find('.powermail_fieldwrap_type_radio .radio').each(function(){
+    jQuery(this).find('input').wrap('<div class="custom-input"></div>');
+    jQuery(this).find('.custom-input input').wrap('<div class="custom-input-visual"></div>');
+    jQuery(this).find('.custom-input .custom-input-visual').append('<div class="clone-check"></div>');
+  });
+
+
+});
+
+
+
 });
 
 
