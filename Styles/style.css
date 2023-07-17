@@ -7780,6 +7780,15 @@ html {
       padding-right: 15px; }
       .sichalla_kollegen .row.sm-grid > .my-col.hs-mb {
         margin-bottom: 30px; }
+  .sichalla_kollegen .row.sm-grid-min {
+    margin-left: -12.5px;
+    margin-right: -12.5px;
+    row-gap: 25px; }
+    .sichalla_kollegen .row.sm-grid-min > .my-col {
+      padding-left: 12.5px;
+      padding-right: 12.5px; }
+      .sichalla_kollegen .row.sm-grid-min > .my-col.hs-mb {
+        margin-bottom: 25px; }
   .sichalla_kollegen .row.min-grid {
     margin-left: -8px;
     margin-right: -8px;
@@ -7966,6 +7975,8 @@ html {
       min-height: 500px; }
   .sichalla_kollegen .team-module .team-info .basic-entry h1, .sichalla_kollegen .team-module .team-info .basic-entry .h1, .sichalla_kollegen .team-module .team-info .basic-entry h2, .sichalla_kollegen .team-module .team-info .basic-entry .h2, .sichalla_kollegen .team-module .team-info .basic-entry h3, .sichalla_kollegen .team-module .team-info .basic-entry .h3, .sichalla_kollegen .team-module .team-info .basic-entry h4, .sichalla_kollegen .team-module .team-info .basic-entry .h4, .sichalla_kollegen .team-module .team-info .basic-entry h5, .sichalla_kollegen .team-module .team-info .basic-entry .h5, .sichalla_kollegen .team-module .team-info .basic-entry h6, .sichalla_kollegen .team-module .team-info .basic-entry .h6 {
     margin-bottom: 0.5rem; }
+  .sichalla_kollegen .team-module .team-info .basic-entry h6, .sichalla_kollegen .team-module .team-info .basic-entry .h6 {
+    font-weight: var(--primary-font-medium); }
   .sichalla_kollegen .team-module .dp {
     margin-bottom: 25px; }
     .sichalla_kollegen .team-module .dp img {
