@@ -289,7 +289,7 @@ jQuery('.the-mobile-menu .menu-close-trigger').click(function(){
 jQuery('.contact-content').each(function(){
   var POWERMAILFIELDSETLAYOUT = jQuery(this).find('.powermail_fieldset.layout1');
   jQuery(this).find(POWERMAILFIELDSETLAYOUT).wrapAll('<div class="row extra-lg-grid"></div>');
-  jQuery(this).find(POWERMAILFIELDSETLAYOUT).addClass('col-6 my-col');
+  jQuery(this).find(POWERMAILFIELDSETLAYOUT).addClass('col-12 col-xlg-6 my-col');
 
   jQuery(this).find('.powermail_fieldwrap').each(function(){
     jQuery(this).find('.powermail_field').detach().prependTo(this);
@@ -301,6 +301,8 @@ jQuery('.contact-content').each(function(){
     jQuery(this).find('.custom-input input').wrap('<div class="custom-input-visual"></div>');
     jQuery(this).find('.custom-input .custom-input-visual').append('<div class="clone-check"></div>');
   });
+
+  jQuery(this).find('.connect-us > a').addClass('site-btn type-primary-colored');
 
 
 });

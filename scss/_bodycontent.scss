@@ -245,6 +245,15 @@ html{
             background-color: var(--site-secondary-lite);
             color: white !important;
         }
+
+        &.type-primary-colored{
+            border-color: var(--site-primary-color);
+            color: white;
+
+            &:hover{
+                background-color: var(--site-primary-color);
+            }
+        }
     }
 
     .element{
@@ -276,6 +285,12 @@ html{
     // basic end
 
     // typography start
+    .text-color-primary{
+        color: var(--site-primary-color);
+    }
+    .text-color-secondary{
+        color: var(--site-secondary-lite);
+    }
     h1, h2, h3, h4, h5, h6{
         font-family: var(--secondary-font);
         font-weight: var(--secondary-font-regular);
@@ -713,6 +728,30 @@ html{
     .contact-content{
         color: white;
 
+        .powermail_fieldwrap_name{
+            h1, h2, h3, h4, h5, h6{
+                margin-bottom: 40px;
+            }
+        }
+
+        .powermail_fieldwrap_email{
+            h1, h2, h3, h4, h5, h6{
+                margin-bottom: 10px;
+            }
+        }
+
+        .powermail_fieldset_1.nolabel{
+            margin-bottom: 37px;
+        }
+
+        .connect-us{
+            a{
+                margin-right: 30px;
+                margin-bottom: 30px;
+                min-width: 232px;
+            }
+        }
+
         &.basic-entry{
             p{
                 font-size: 14px;
@@ -720,7 +759,11 @@ html{
             }
         }
 
-        .powermail_fieldwrap_type_html{
+        .powermail_fieldwrap_type_submit{
+            margin-top: 28px;
+        }
+
+        .powermail_fieldwrap_type_html.powermail_fieldwrap_marker{
             color: #c3c4c4;
             margin-top: 55px;
         }
