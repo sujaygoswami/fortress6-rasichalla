@@ -1,0 +1,32 @@
+Die Webseite sieht richtig gut aus. Hab noch kleine Punkte, wie die Höhe des blauen Feldes unter Team dem der Startseite anpassen.
+
+Auf der Home/Landing ist noch im Parallax der Überblendeneffekt bei Flotte/Furpark. Könntet Ihr da bitte nochmal schauen. Danke.
+
+Der Menüpunkt Honorar/Abrechnung, hier würde ich keinen Querstrich machen. Eher ein + oder & oder und ausschreiben aber das muss Michael entscheiden.
+
+Im Footer ist der Abschnitt Bürozeiten nach unten gerutscht. Den würde ich nach oben unter Adresse nehmen. Kann man den QR Code auch kleiner machen oder negativ darstellen?
+
+"Auf den Link klicken" finde ich nicht so gut. Würde eher einen button machen. Das man einen QR code scannen muss sollte eigentlich jedem klar sein, würde ich nicht schreiben.
+
+Im Anhang noch die größenangepasste Karte.
+
+===== translated =====
+a) The website looks really good. Still have small points, like adjusting the height of the blue field under Team to that of the start page.
+## Done, we have placed a check box named "Globale Mindesthöhe des Containers" to apply similar min height to the desired sections.
+
+b)On Home/Landing, the fade-over effect at Fleet/Furpark is still in parallax. Could you please take a look there again? Thanks.
+## Done, disabled animation from paralax below content
+
+
+c)The menu item fee/accounting, I wouldn't make a dash here. Rather write out a + or & or and but that has to be decided by Michael.
+## not clear, need explanation
+
+d) The office hours section in the footer has moved down. I would take that up under address. Can the QR code be made smaller or displayed negatively?
+## Done, qr code task pause for now
+
+e) I don't think "click on the link" is that good. Would rather make a button. It should be clear to everyone that you have to scan a QR code, I would not write.
+## qr code task pause for now
+
+f) Attached is the resized map.
+## Done
+===== translated =====

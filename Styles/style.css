@@ -8822,6 +8822,11 @@ html {
     visibility: hidden; }
     .sichalla_kollegen .view-port-appear.active {
       visibility: visible; }
+  @media screen and (min-width: 1280px) {
+    .sichalla_kollegen section.section-row.global-min-height {
+      display: flex;
+      align-items: center;
+      min-height: 600px; } }
   .sichalla_kollegen .frame-default .container, .sichalla_kollegen .frame-default .container-fluid, .sichalla_kollegen .frame-default .container-sm, .sichalla_kollegen .frame-default .container-md, .sichalla_kollegen .frame-default .container-lg, .sichalla_kollegen .frame-default .container-xl {
     max-width: inherit;
     padding-left: 0px;

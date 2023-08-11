@@ -40,6 +40,17 @@ html{
     
 
     // basic start
+    @media screen and (min-width: $xl){
+        section{
+            &.section-row{
+                &.global-min-height{
+                    display: flex;
+                    align-items: center;
+                    min-height: 600px;
+                }
+            }
+        }
+    }
     .frame-default{
         
         .container, .container-fluid{
