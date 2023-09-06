@@ -127,16 +127,6 @@ function(){
 }
 );
 
-if (!$('body').hasClass('touch')) {
-  jQuery('.iconic-hovered-widget .widget-block').click(function(){
-    var LINK = jQuery(this).find('.site-btn').attr('href');
-    window.location.href = LINK;
-  });
-}
-
-// button-link
-jQuery('.button-link').addClass('site-btn type-primary-colored');
-
 // short sub menu
 jQuery('.main-navugation .primary-menu').each(function(){
   var HASSHORTSUB = jQuery(this).find('.short-sub-menu').length;

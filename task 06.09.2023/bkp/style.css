@@ -8610,7 +8610,7 @@ html, body {
         left: 0px;
         padding-top: 8px;
         display: none;
-        min-width: 145px; }
+        min-width: 135px; }
         .sichalla_kollegen .main-navugation nav > ul.first-level > li .short-sub-menu ul {
           list-style: none;
           margin: 0px;
@@ -8822,12 +8822,6 @@ html {
     visibility: hidden; }
     .sichalla_kollegen .view-port-appear.active {
       visibility: visible; }
-  .sichalla_kollegen .text-right {
-    text-align: right; }
-  .sichalla_kollegen .text-center {
-    text-align: center; }
-  .sichalla_kollegen .text-justify {
-    text-align: justify; }
   @media screen and (min-width: 1280px) {
     .sichalla_kollegen section.section-row.global-min-height {
       display: flex;
@@ -8964,13 +8958,12 @@ html {
     display: inline-block;
     line-height: normal;
     background-color: transparent; }
-    .sichalla_kollegen .site-btn.button-link:not(.text-white) {
-      color: var(--site-dark-color); }
     .sichalla_kollegen .site-btn:hover {
       background-color: var(--site-secondary-lite);
       color: white !important; }
     .sichalla_kollegen .site-btn.type-primary-colored {
-      border-color: var(--site-primary-color); }
+      border-color: var(--site-primary-color);
+      color: white; }
       .sichalla_kollegen .site-btn.type-primary-colored:hover {
         background-color: var(--site-primary-color); }
   .sichalla_kollegen .element.element-gap-default {

@@ -40,6 +40,15 @@ html{
     
 
     // basic start
+    .text-right{
+        text-align: right;
+    }
+    .text-center{
+        text-align: center;
+    }
+    .text-justify{
+        text-align: justify;
+    }
     @media screen and (min-width: $xl){
         section{
             &.section-row{
@@ -239,6 +248,7 @@ html{
         }
     }
 
+
     .site-btn{
         color: var(--site-secondary-lite);
         border: 1px solid var(--site-secondary-lite);
@@ -252,6 +262,12 @@ html{
         line-height: normal;
         background-color: transparent;
 
+        &.button-link{
+            &:not(.text-white){
+                color: var(--site-dark-color);
+            }
+        }
+
         &:hover{
             background-color: var(--site-secondary-lite);
             color: white !important;
@@ -259,7 +275,6 @@ html{
 
         &.type-primary-colored{
             border-color: var(--site-primary-color);
-            color: white;
 
             &:hover{
                 background-color: var(--site-primary-color);
