@@ -9370,6 +9370,9 @@ html {
     font-size: 16px;
     line-height: 24px; }
 
+.sichalla_kollegen.ios-device .parallax-window {
+  background-attachment: initial !important; }
+
 @media screen and (max-width: 1279px) and (min-width: 820px) {
   .sichalla_kollegen .main-navugation nav > ul.first-level {
     margin-right: 40px; }

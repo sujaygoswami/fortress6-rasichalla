@@ -1,3 +1,11 @@
+// for ios
+.sichalla_kollegen.ios-device{
+    // parallax-window
+    .parallax-window{
+        background-attachment: initial !important;
+    }
+}
+
 // for small screen desktop
 @media screen and (max-width: ($xl - 1px)) and (min-width: $lg){
     .sichalla_kollegen{
