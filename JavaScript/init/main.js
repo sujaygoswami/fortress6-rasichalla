@@ -116,7 +116,7 @@ jQuery('.main-navugation ul.first-level').mouseleave(function(){
 site.HOVEREDWIDGETMATCHHEIGHT = function() {
   jQuery('.iconic-hovered-widget .primary-content').matchHeight();
 };
-jQuery('.iconic-hovered-widget .widget-block').hover(function(){
+jQuery('body:not(.android-device) .iconic-hovered-widget .widget-block').hover(function(){
   jQuery(this).addClass('hovered');
   jQuery(this).find('.main-context-wrap').show();
   site.HOVEREDWIDGETMATCHHEIGHT();
@@ -127,12 +127,55 @@ function(){
 }
 );
 
-if (!$('body').hasClass('touch')) {
-  jQuery('.iconic-hovered-widget .widget-block').click(function(){
+
+jQuery('body.android-device .iconic-hovered-widget .widget-block').click(function(){
+  jQuery('body.android-device .iconic-hovered-widget .widget-block').removeClass('hovered');
+  jQuery('body.android-device .iconic-hovered-widget .widget-block .main-context-wrap').hide();
+  jQuery(this).addClass('hovered');
+  jQuery(this).find('.main-context-wrap').show();
+  site.HOVEREDWIDGETMATCHHEIGHT();
+  // e.stopPropagation();
+});
+
+
+jQuery('body.android-device .iconic-hovered-widget .widget-block').addClass('iconic-hovered-widget-dual-click');
+jQuery(document).on( "click", ".iconic-hovered-widget-dual-click", function(event) {
+  var LINK = jQuery(this).find('.site-btn').attr('href');
+  jQuery(".iconic-hovered-widget-dual-click").not(this).removeClass("clicked");
+  jQuery(this).toggleClass("clicked");
+  if (jQuery(this).hasClass("clicked")) {
+      event.preventDefault();
+  }else{
+    window.location.href = LINK;
+  }
+  event.stopPropagation();
+});
+
+jQuery(document).click(function(){
+  jQuery('body.android-device .iconic-hovered-widget .widget-block').removeClass('hovered');
+  jQuery('body.android-device .iconic-hovered-widget .widget-block .main-context-wrap').hide();
+  jQuery('body.android-device .iconic-hovered-widget .widget-block').removeClass('clicked');
+});
+
+// if (!$('body').hasClass('touch')) {
+  jQuery('body:not(.android-device) .iconic-hovered-widget .widget-block').click(function(){
     var LINK = jQuery(this).find('.site-btn').attr('href');
     window.location.href = LINK;
   });
-}
+// };
+
+// if ($('body').hasClass('ios-device touch')) {
+//   jQuery('.iconic-hovered-widget .widget-block').click(function(){
+//     var LINK = jQuery(this).find('.site-btn').attr('href');
+//     window.location.href = LINK;
+//   });
+// };
+
+
+
+   
+  
+  
 
 // button-link
 jQuery('.button-link').addClass('site-btn type-primary-colored');
