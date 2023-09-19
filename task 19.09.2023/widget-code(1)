@@ -1,0 +1,31 @@
+
+    <script type="text/javascript">
+      var headHandler = document.querySelector('head');
+      var script = document.createElement('script');
+      script.type = 'text/javascript';
+      script.src = 'https://cdn.chatwerk.de/1.0.0/chatwerk-loader.min.js.gz'; 
+      script.onload = function () {
+        var chatwerkLoaderConfig = {
+           "inboxConfig": {
+             "organizationQuery": {
+               "id": "ujYkvXeCqH"
+             },
+             "opened": true,
+             "language": "de",
+             "dictionaries": {
+               "de": {
+                 "welcomeMessage": "Willkommen! Chatten Sie mit uns live per Webchat oder WhatsApp! \nWir sind für Sie da."
+               }
+             },
+             "theme": {
+               "circleIconColor": "#000000"
+             }
+           }
+         };
+
+        chatwerkLoader.initialize(chatwerkLoaderConfig);
+      };
+
+      headHandler.appendChild(script);
+    </script>
+  

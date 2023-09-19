@@ -110,6 +110,10 @@
             }
         }
 
+        .site-btn{
+            font-size: 13px;
+        }
+
         // typography
 
         
@@ -120,7 +124,7 @@
         }
 
         .basic-entry{
-            p, li{
+            p, ul li, ol li{
                 font-size: 13px;
                 line-height: 19px;
             }

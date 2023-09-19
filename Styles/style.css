@@ -9413,10 +9413,12 @@ html {
       .sichalla_kollegen .row.default-grid > .my-col {
         padding-left: 10px;
         padding-right: 10px; }
+    .sichalla_kollegen .site-btn {
+      font-size: 13px; }
     .sichalla_kollegen h4, .sichalla_kollegen .h4 {
       font-size: 23px;
       line-height: 24px; }
-    .sichalla_kollegen .basic-entry p, .sichalla_kollegen .basic-entry li {
+    .sichalla_kollegen .basic-entry p, .sichalla_kollegen .basic-entry ul li, .sichalla_kollegen .basic-entry ol li {
       font-size: 13px;
       line-height: 19px; }
     .sichalla_kollegen .basic-entry.primary-font-entry p, .sichalla_kollegen .basic-entry.primary-font-entry li {
