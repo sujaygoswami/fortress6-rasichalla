@@ -915,6 +915,24 @@ html{
     }
 
 
+    // tx-powermail
+    .tx-powermail{
+        table.table{
+            color: white;
+
+            &.table-striped{
+                & > tbody > tr:nth-of-type(odd){
+                    color: white;
+                }
+            }
+
+            &.table-hover > tbody > tr:hover{
+                color: white;
+            }
+        }
+    }
+
+
     
 
 
