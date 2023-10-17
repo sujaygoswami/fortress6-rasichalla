@@ -9329,6 +9329,12 @@ html {
           border-radius: 100%; }
   .sichalla_kollegen .whatsapp-qrcode img {
     border: 4px solid; }
+  .sichalla_kollegen .tx-powermail table.table {
+    color: white; }
+    .sichalla_kollegen .tx-powermail table.table.table-striped > tbody > tr:nth-of-type(odd) {
+      color: white; }
+    .sichalla_kollegen .tx-powermail table.table.table-hover > tbody > tr:hover {
+      color: white; }
 
 .sichalla_kollegen footer.footer {
   padding: 110px 0;
